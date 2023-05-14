@@ -33,17 +33,17 @@ const Experience = () => {
 }
 
 const timelineElements = [
-  // {
-  //   id : 6,
-  //   title: "Incoming Business Intelligence and Data analysis Intern",
-  //   company : "Shopee (SeaMoney)",
-  //   location : "Singapore",
-  //   description : '',
-  //   date : "Feb 2023 - May 2023",
-  // },
+  {
+    id : 6,
+    title: "Data Analyst Intern",
+    company : "SeaMoney (Shopee)",
+    location : "Singapore",
+    description : '',
+    date : "Feb 2023 - May 2023",
+  },
   {
     id : 5,
-    title: "Analyst Intern",
+    title: "Data Analyst Intern",
     company : "data.ai formerly App Annie",
     location : "Singapore",
     description : "• Developed SQL queries for retrieval of product and performance data from Snowflake, which were used for dashboard development to visualise the company and team\’s performance \n•  Designed dashboards that visualised current product performance and its variance across different countries and categories through time series and descriptive analysis\n• Conducted a diagnostic analysis on product requests and feedback, using time series and statistical coverage to determine the gaps in performance and built a dashboard for visualisation of results",

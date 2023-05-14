@@ -1,9 +1,10 @@
 import React from 'react'
 import './portfolio.css'
 import portfolio1 from '../../assets/portfolio1.jpg'
-import portfolio2 from '../../assets/portfolio2.jpg'
+import portfolio2 from '../../assets/portfolio2.png'
 import portfolio3 from '../../assets/portfolio3.jpg'
-
+import portfolio4 from '../../assets/portfolio4.png'
+import portfolio5 from '../../assets/portfolio5.jpg'
 
 const Portfolio = () => {
   return (
@@ -39,19 +40,35 @@ const Portfolio = () => {
 
 const data = [
   {
+    id: 5,
+    image: portfolio5,
+    title: 'NFT Price Predictor Pipeline',
+    skills: 'Apache Airflow | BigQuery | ETL',
+    github: 'https://github.com/mygau91/IS3107_Group_16',
+    demo: '',
+  },
+  {
+    id: 4,
+    image: portfolio4,
+    title: 'OptiRound',
+    skills: 'VBA',
+    github: 'https://uvents.nus.edu.sg/event/22nd-steps/module/IS4250/project/4',
+    demo: '',
+  },
+  {
     id: 3,
     image: portfolio3,
-    title: 'Company\'s LinkedIn Scraper',
-    skills: 'Selenium | BS4 | Pandas',
-    github: 'https://github.com/mygau91/scrape-linkedin-company-profile',
+    title: 'ALS Database',
+    skills: 'MySQL | SQLAlchemy | Pillow | Tkinter',
+    github: 'https://github.com/mygau91/ALSDatabase',
     demo: '',
   },
   {
     id: 2,
     image: portfolio2,
-    title: 'ALS Database',
-    skills: 'MySQL | SQLAlchemy | Pillow | Tkinter',
-    github: 'https://github.com/mygau91/ALSDatabase',
+    title: 'OCBC Digital Transformation',
+    skills: 'Risk Assessment | Market Research',
+    github: 'https://drive.google.com/file/d/1G3Noo4GCkucmVQZxCqL-pxblLZVLssjb/view?usp=share_link',
     demo: '',
   },
   {

@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {HiAcademicCap} from 'react-icons/hi'
 import {BsFillFolderSymlinkFill} from 'react-icons/bs'
 
+const aboutMe = "As an undergraduate at the National University of Singapore, I am currently pursuing a double degree in Business Administration (Finance) and Business Analytics (Machine Learning). Throughout my academic journey, I have actively sought internships in diverse industries, taking on varying roles and responsibilities. It was during these experiences that I discovered my strong inclination towards software engineering, particularly in the context of finance. This realization has fueled my passion to pursue a career at the intersection of technology and finance."
+
 const About = () => {
+
   return (
       <section id="about">
         <h5> Who am I?</h5>
@@ -44,9 +47,7 @@ const About = () => {
               </article>
             </div>
 
-            <p>
-               I am an undergraduate in National University of Singapore, pursuing a double  degree (BBA/BSc) in Business Administration (Finance) and Business Analytics (Machine Learning). My interests lie in AI, Machine Learning, and big data manipulation. I also love making stuff, and in my free time, I read, kayak, or build stuff!
-            </p>
+            <p>{aboutMe}</p>
 
             <a href="#contact" className='btn btn-primary'>Talk to me!</a>
 
