@@ -12,6 +12,6 @@ After failing to board my flight and being stranded in Canada for a week, I had 
 I decided to pick up some frontend development and experimented with my own website! I followed YouTube tutorials (explaining the remarkable resemblance to other sites) and slowly learnt from there!
 
 ### Check out the website!
-The site is currently hosted on https://mygau91.github.io/personal-website/ 
+The site is currently hosted on https://mygau91.github.io/about/ 
 
 Do leave me feedback if you have any, or get in touch with me! My contact information is on my website hehe.
