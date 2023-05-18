@@ -50,7 +50,7 @@ const Skill = () => {
       experience: 'Intermediate'
     },
     {
-      icon: <SiPython className='skills_details-icon' />,
+      icon: <ImDatabase className='skills_details-icon' />,
       title: 'Data Engineering',
       technologies: 'Apache Airflow | Kafka',
       experience: 'Experienced'
