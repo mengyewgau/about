@@ -38,13 +38,13 @@ const Skill = () => {
 
   const softwareEngineeringSkills = [
     {
-      icon: <SiJava className='skills_details-icon' />,
+      icon: <SiJavascript className='skills_details-icon' />,
       title: 'Frontend',
       technologies: 'ReactJS | Ruby | VueJS',
       experience: 'Intermediate'
     },
     {
-      icon: <SiJavascript className='skills_details-icon' />,
+      icon: <SiJava className='skills_details-icon' />,
       title: 'Backend',
       technologies: 'Java (SpringBoot) | NodeJS | ExpressJS',
       experience: 'Intermediate'
