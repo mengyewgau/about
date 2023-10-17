@@ -1,64 +1,61 @@
 .portfolio_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
 .portfolio_item {
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    text-align: center;
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  text-align: center;
 }
 
 .portfolio_item-img {
-    border-radius: 1.5rem;
-    overflow: hidden;
-    display: flex;
-    height: 14rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  height: 10rem;
+  background-color: white;
 }
 
 .portfolio_item > h3 {
-    margin: 0.4rem;
-    text-align: center; 
+  margin: 0.4rem;
+  text-align: center;
 }
 
 .portfolio_item-cta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.2rem;
-    justify-content: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.2rem;
+  justify-content: center;
 }
 
 .portfolio_item > small {
-    margin: 0rem 0 0rem;
-    font-size: small;
-    height: 1rem;
-    color: var(--color-primary);
+  margin: 0rem 0 0rem;
+  font-size: small;
+  height: 1rem;
+  color: var(--color-primary);
 }
 
-
-
 /* ====== Media Queries (For medium sized devices) */
-@media screen and (max-width:1024px){
-    .portfolio_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-    .portfolio_item > h3 {
-        margin: 0.4rem;
-        text-align: center;
-        height: 3.5rem;
-    }
-    
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .portfolio_item > h3 {
+    margin: 0.4rem;
+    text-align: center;
+    height: 3.5rem;
+  }
 }
 
 /* ====== Media Queries (For small sized devices) */
-@media screen and (max-width:600px){
-    .portfolio_container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
