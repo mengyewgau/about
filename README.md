@@ -1,7 +1,5 @@
 # My personal website!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### Who am I?
 
 As an undergraduate at the National University of Singapore, I am currently pursuing a double degree in Business Administration (Finance) and Business Analytics (Machine Learning). Throughout my academic journey, I have actively sought internships in diverse industries, taking on varying roles and responsibilities. It was during these experiences that I discovered my strong inclination towards software engineering, particularly in the context of finance. This realization has fueled my passion to pursue a career at the intersection of technology and finance.
