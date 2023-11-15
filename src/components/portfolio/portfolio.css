@@ -17,7 +17,9 @@
   overflow: hidden;
   display: flex;
   height: 10rem;
-  background-color: white;
+  background-color: #e6e9f3ef;
+  align-items: center;
+  vertical-align: middle;
 }
 
 .portfolio_item > h3 {
