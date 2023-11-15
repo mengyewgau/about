@@ -7,6 +7,7 @@ import portfolio4 from "../../assets/portfolio4.png";
 import portfolio5 from "../../assets/portfolio5.jpg";
 import portfolio6 from "../../assets/portfolio6.png";
 import portfolio7 from "../../assets/portfolio7.png";
+import portfolio8 from "../../assets/portfolio8.png";
 
 const Portfolio = () => {
   return (
@@ -44,6 +45,14 @@ const Portfolio = () => {
 
 const data = [
   {
+    id: 8,
+    image: portfolio8,
+    title: "Smartfolio",
+    skills: "ExpressJS | Vue.js | Node.js | Docker | Python | Optimisation",
+    github: "https://github.com/mengyewgau/Smartfolio",
+    demo: "https://smartfolio-16224.web.app/",
+  },
+  {
     id: 7,
     image: portfolio7,
     title: "BookIt",
@@ -64,14 +73,14 @@ const data = [
     image: portfolio5,
     title: "NFT Price Predictor Pipeline",
     skills: "Apache Airflow | BigQuery | Python",
-    github: "https://github.com/mygau91/IS3107_Group_16",
-    demo: "https://github.com/mygau91/IS3107_Group_16",
+    github: "https://github.com/mengyewgau/IS3107_Group_16",
+    demo: "https://github.com/mengyewgau/IS3107_Group_16",
   },
   {
     id: 4,
     image: portfolio4,
     title: "OptiRound",
-    skills: "VBA",
+    skills: "VBA | Optimisation",
     github:
       "https://uvents.nus.edu.sg/event/22nd-steps/module/IS4250/project/4",
     demo: "https://uvents.nus.edu.sg/event/22nd-steps/module/IS4250/project/4",
@@ -81,8 +90,8 @@ const data = [
     image: portfolio3,
     title: "ALS Database",
     skills: "MySQL | SQLAlchemy | Pillow | Tkinter",
-    github: "https://github.com/mygau91/ALSDatabase",
-    demo: "https://github.com/mygau91/ALSDatabase",
+    github: "https://github.com/mengyewgau/ALSDatabase",
+    demo: "https://github.com/mengyewgau/ALSDatabase",
   },
   {
     id: 2,
