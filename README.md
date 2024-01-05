@@ -11,5 +11,5 @@ After failing to board my flight and being stranded in Canada for a week, I had 
 I decided to pick up some frontend development and experimented with my own website! I followed YouTube tutorials (explaining the remarkable resemblance to other sites) and slowly learnt from there!
 
 ### Check out the website!
-*Site is offline! *
+**Site is offline!**
 The site is currently hosted on https://mengyewgau.github.io/about/
